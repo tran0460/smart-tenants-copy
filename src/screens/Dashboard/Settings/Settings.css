@@ -1,0 +1,79 @@
+.settings-page-container {
+	padding: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+.settings-page-container label {
+	color: #686868;
+}
+.settings-page-container input {
+	background: #ffffff;
+	border: 2.4px solid #ededed;
+	border-radius: 8px;
+	box-sizing: border-box;
+	padding: 0.75rem 0.5rem;
+}
+.settings-page-container p {
+	margin: 0;
+}
+.settings-image-container {
+	position: relative;
+	margin-right: 10rem;
+}
+.settings-image-container img {
+	width: 13rem;
+	height: 13rem;
+	border-radius: 1rem;
+}
+.settings-image-edit-button {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 8px;
+	position: absolute;
+	width: 1.5rem;
+	height: 1.5rem;
+	right: -1rem;
+	top: -1rem;
+	box-shadow: 0px 0px 12px rgba(77, 77, 77, 0.1);
+	border-radius: 2rem;
+	cursor: pointer;
+}
+.settings-user-profile {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 5rem;
+}
+.settings-user-profile svg {
+	top: 0.75rem;
+}
+.settings-personal-information input {
+	margin-bottom: 1.5rem;
+}
+.settings-personal-information .header {
+	font-size: 1.25rem;
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+.settings-personal-information {
+	width: 25rem;
+	display: flex;
+	flex-direction: column;
+	margin-right: 10rem;
+}
+.settings-personal-information input.disabled {
+	background: #f6f6f6;
+}
+.settings-security {
+	width: 25rem;
+	display: flex;
+	flex-direction: column;
+}
+.settings-security label {
+	margin-top: 1rem;
+}
+.settings-security input {
+	margin-bottom: 0.5rem;
+}

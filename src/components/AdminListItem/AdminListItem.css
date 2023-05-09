@@ -1,0 +1,7 @@
+.team-image-container {
+	width: 4rem;
+}
+.team-image-container img {
+	width: 100%;
+	border-radius: 0.5rem;
+}

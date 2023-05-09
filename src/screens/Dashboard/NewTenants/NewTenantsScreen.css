@@ -1,0 +1,29 @@
+.searchBar {
+	justify-content: space-between;
+}
+
+.back-to-tenants-link {
+	text-decoration: none;
+	color: #000;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+
+.back-to-tenants-link h2 {
+	margin-left: 0;
+}
+
+button.approve-tenant,
+button.decline-tenant {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+button.danger span {
+	background: rgba(231, 29, 54, 0.1);
+	color: #e71d36;
+}

@@ -1,0 +1,12 @@
+.list-item > div {
+	cursor: pointer;
+}
+
+.list-item .profile-image-container {
+	width: 4rem;
+	height: 4rem;
+}
+.list-item .profile-image-container img {
+	width: 100%;
+	height: 100%;
+}

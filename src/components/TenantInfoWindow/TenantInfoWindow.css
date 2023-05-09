@@ -1,0 +1,273 @@
+.tenant-info-window {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: overlay;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: 99999;
+	background: #ffffff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 20px 0px 0px 20px;
+	padding: 0 2.5rem;
+	box-sizing: border-box;
+}
+
+.dimmed-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99998;
+	background: #000;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.tenant-profile-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 1rem;
+	min-width: 18rem;
+	box-sizing: border-box;
+}
+
+.tenant-profile-container div {
+	margin: 1rem 0;
+}
+
+.tenant-profile-container p {
+	max-width: 21ch;
+	display: flex;
+	align-items: center;
+}
+
+.tenant-profile-back-button {
+	font-size: 1.4rem;
+	padding: 1rem 0 1.5rem 0;
+	display: flex;
+	align-items: center;
+	align-self: flex-start;
+	text-align: left;
+	margin-top: 0.5rem;
+	margin-left: -1rem;
+	cursor: pointer;
+	font-weight: 400;
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	width: 19.5rem;
+	z-index: 2;
+}
+.tenant-profile-container .pencil-icon {
+	align-self: flex-end;
+	padding-top: 0.5rem;
+	margin-right: -1rem;
+}
+.profile-image-container.large {
+	width: 8rem;
+	min-height: 8rem;
+	border-width: 3px;
+	position: relative;
+}
+.profile-image-container.large img {
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+}
+
+.tenant-profile-full-name {
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+.tenant-profile-status {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.25rem 1rem;
+	gap: 0.5rem;
+	background: #dcdcdc;
+	border-radius: 0.5rem;
+}
+
+.tenant-profile-send-notice {
+	width: 100%;
+	margin-bottom: 2rem;
+	min-height: 3rem;
+}
+
+.tenant-profile-mail,
+.tenant-profile-address,
+.tenant-profile-unit {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	align-self: flex-start;
+	gap: 0.5rem;
+	margin: 0.75rem 0 !important;
+}
+
+.tenant-profile-address svg {
+	overflow: visible;
+}
+
+.action-buttons button {
+	width: 100%;
+	height: 3.43rem;
+}
+.action-buttons {
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-bottom: 3rem;
+	margin-bottom: 0 !important;
+	gap: 1rem;
+}
+
+.tenant-profile-container input {
+	margin-bottom: 1rem;
+	background: #ffffff;
+	border: 2.4px solid #ededed;
+	border-radius: 8px;
+	min-height: 3rem;
+	width: 17.5rem;
+	padding-inline-end: 2rem;
+	font-size: 1rem;
+	text-indent: 0.5rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 400;
+	font-size: 16px;
+	color: #686868;
+}
+
+.tenant-profile-container label {
+	width: 100%;
+	text-align: left;
+	font-weight: 500;
+	font-size: 16px;
+	color: #686868;
+}
+
+.trash-can-icon {
+	margin: 0;
+	overflow: visible;
+	margin-top: -3rem;
+	margin-bottom: 2rem;
+}
+
+.tenant-profile-edit-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+.tenant-profile-edit-button p {
+	color: #0c6350;
+}
+.tenant-info-window span {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.tenant-profile-edit-button span .pencil-icon {
+	padding: 0;
+}
+.tenant-image-delete-button {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0.5rem;
+	background: #ffffff;
+	box-shadow: 0px 0px 12px rgb(77 77 77 / 10%);
+	border-radius: 1rem;
+	position: absolute;
+	top: -0.5rem;
+	right: 0;
+	width: 1rem !important;
+	height: 1rem !important;
+	margin-right: -0.5rem;
+	cursor: pointer;
+}
+.tenant-file-section {
+	width: 10rem !important ;
+	min-height: 10rem;
+	background: #eaf7f0;
+	border: 2.4px dashed #0c6350;
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+.tenant-file-section p {
+	font-size: 0.75rem !important;
+}
+.tenant-file-section.file-hovering {
+	background: #c9eada !important;
+}
+.tenant-file-section:hover {
+	background: #c9eada;
+}
+.building-input-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0 !important;
+}
+.building-input-container input {
+	cursor: pointer;
+}
+.building-input-container label {
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+
+.building-input-container span {
+	position: absolute;
+	right: 0.5rem;
+	top: 48%;
+	width: 16px;
+	height: 16px;
+}
+.list-dropdown.profile {
+	right: 0.25rem;
+	top: 38.5rem;
+	width: 19rem;
+}
+
+.list-dropdown.profile li {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px 4px;
+	gap: 8px;
+	border-radius: 4px;
+}
+.list-dropdown.profile p {
+	color: #0c6350;
+	display: flex;
+	align-items: center;
+	margin: auto 0;
+}
+.list-dropdown.profile li.active {
+	background: #eaf7f0;
+}
+
+.tenant-info-window .building-list-area {
+	width: 100%;
+}

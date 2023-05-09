@@ -1,0 +1,77 @@
+.comment-container {
+	display: inline-flex;
+	flex-direction: column;
+	background: #f8f8f8;
+	border-radius: 0 0.5rem 0.5rem 0.5rem;
+	padding: 0.5rem;
+}
+.comment-container p {
+	margin: 0;
+}
+.comment-info-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5rem;
+}
+.comment-info {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.comment-info span {
+	margin-left: auto;
+}
+.comment-info > div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.comment-info small {
+	font-weight: 400;
+	font-size: 11.24px !important;
+	color: #9d9d9d;
+	margin: 0 0.5rem;
+}
+.comment-info-row {
+	margin-bottom: 0.25rem;
+}
+.comment-info-row .profile-image-container {
+	width: 2rem !important;
+	height: 2rem !important;
+	margin: 0;
+}
+.comment-info-row .profile-image-container img {
+	width: 2rem !important;
+	height: 2rem !important;
+	border-radius: 0.5rem;
+}
+.commentor-name {
+	font-weight: 500;
+	font-size: 0.889rem;
+	color: #4d4d4d;
+	display: flex;
+	align-items: center;
+}
+.comment-content {
+	font-weight: 400;
+	font-size: 0.79rem;
+	color: #4d4d4d;
+	margin-left: 2.5rem !important;
+}
+
+.reply-area {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	padding-left: 15px;
+	margin-left: 1rem;
+	gap: 0.5rem;
+	border-left: 1px solid #ededed;
+}
+
+.load-more.reply {
+	border-left: 1px solid #fff;
+	padding-left: 1rem;
+	margin-left: -1rem;
+}

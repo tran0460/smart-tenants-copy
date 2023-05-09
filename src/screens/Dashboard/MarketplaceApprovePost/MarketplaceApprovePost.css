@@ -1,0 +1,16 @@
+.back-to-marketplace-button span {
+	height: 1.5rem;
+}
+.back-to-marketplace-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: auto;
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: #4e4d4d;
+	gap: 1rem;
+}
+.search.approve-new-posts {
+	margin-right: 1rem;
+}

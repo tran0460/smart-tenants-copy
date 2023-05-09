@@ -1,0 +1,31 @@
+.notice-recipient-box {
+	display: flex;
+	flex-direction: row;
+	background: #eaf7f0;
+	border-radius: 0.5rem;
+	align-items: center;
+	font-size: 0.9rem;
+	padding: 0.5rem;
+	gap: 0.5rem;
+}
+.notice-recipient-box span:not(.placeholder-avatar span) {
+	margin-left: 0.25rem;
+}
+
+.notice-recipient-box svg {
+	margin: 0;
+}
+.notice-recipient-box .recipient-name {
+	margin: 0;
+	font-weight: 400;
+	font-size: 12.64px;
+	color: #4d4d4d;
+	white-space: nowrap;
+}
+
+.notice-recipient-box .profile-image-container,
+.notice-recipient-box .profile-image-container img {
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0.25rem;
+}

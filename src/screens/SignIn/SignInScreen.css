@@ -1,0 +1,115 @@
+/* Page layout */
+.container {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 500;
+	margin: 0;
+}
+h3 {
+	text-align: center;
+	font-weight: 400;
+	margin: 1.5rem;
+}
+.left,
+.right {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	background: #f8f8f8;
+}
+/* Form styling */
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 30rem;
+	max-width: 32rem;
+	padding: 1rem;
+}
+form label {
+	color: #686868;
+	font-weight: 500;
+}
+form input {
+	height: 3rem;
+	background: #ffffff;
+	border: 2px solid #aaaaaa;
+	border-radius: 2.5px;
+	text-indent: 0.7rem;
+	font-size: 1rem;
+}
+
+.forgot-password-link {
+	font-weight: 400;
+	text-decoration: none;
+	color: #0c6350;
+	margin-bottom: 2.7rem;
+}
+
+.sign-in-button {
+	min-height: 3.43rem;
+}
+
+.smart-living-logo {
+	position: absolute;
+	align-self: center;
+	width: 14rem;
+	top: 10%;
+}
+.image-container {
+	width: 40rem;
+}
+.image-container img {
+	width: 100%;
+}
+
+.email-input {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+.email-input span {
+	position: absolute;
+	right: -2rem;
+	top: 2.7rem;
+}
+.password-input span {
+	position: absolute;
+	right: -2rem;
+	top: 2.7rem;
+}
+.email-input,
+.password-input {
+	position: relative;
+	margin-bottom: 1.5rem;
+}
+
+.error-box {
+	box-sizing: border-box;
+	width: 100%;
+	height: 56px;
+	background: #fde8eb;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 1.125rem;
+	margin-bottom: 1.5rem;
+	gap: 10px;
+}
+.error-box span {
+	height: 1.5rem;
+}
+.error-box p {
+	font-size: 0.88rem;
+	color: #e71d36;
+}

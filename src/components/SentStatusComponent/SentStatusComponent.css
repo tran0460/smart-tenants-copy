@@ -1,0 +1,46 @@
+.sent-status-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px 8px;
+	gap: 8px;
+	background: #ebf1ff;
+	border-radius: 24px;
+	height: 26px !important;
+	box-sizing: border-box;
+	width: auto;
+	cursor: pointer;
+}
+.sent-status-container p {
+	font-weight: 400;
+	font-size: 12.64px;
+	color: #3772ff !important;
+	margin: 0;
+}
+.sent-status-container .tenants-avatar {
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.sent-status-container span {
+	height: 1rem;
+}
+.sent-status-container .images {
+	height: 18px !important;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.sent-status-container img {
+	width: 1rem !important;
+	height: 1rem !important;
+	border: 0.8px solid #ebf1ff;
+	border-radius: 12px;
+}
+.sent-status-container img:not(.sent-status-container img:first-child),
+.sent-status-container
+	.placeholder-avatar:not(.sent-status-container
+		.placeholder-avatar:first-child) {
+	margin-left: -0.5rem;
+}

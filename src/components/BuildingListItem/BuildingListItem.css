@@ -1,0 +1,17 @@
+.building-image-container {
+	width: 8rem;
+	height: 6rem;
+}
+
+.building-image-container img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.25rem;
+}
+
+.building-list-item div {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}

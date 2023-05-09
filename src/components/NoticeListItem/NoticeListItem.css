@@ -1,0 +1,49 @@
+.notice-name-col p,
+.notice-email-col p,
+.notice-building-col p {
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 80%;
+	text-overflow: ellipsis;
+}
+.notice-list-item .notice-name-col,
+.notice-list-item .notice-email-col,
+.notice-list-item .notice-building-col {
+	position: relative;
+}
+.info-window {
+	height: unset !important;
+	position: absolute;
+	bottom: 100%;
+	background: #ffffff;
+	box-shadow: 0px 0px 12px rgba(77, 77, 77, 0.1);
+	border-radius: 8px;
+	padding: 0.5rem;
+	z-index: 999;
+	max-width: 100%;
+	box-sizing: border-box;
+	white-space: normal;
+}
+
+.info-window p {
+	max-width: 100% !important;
+	overflow: unset;
+	white-space: normal;
+	font-weight: 400;
+	font-size: 12.64px;
+	color: #4d4d4d;
+	white-space: normal;
+}
+.notice-status-col {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	justify-content: center;
+}
+
+.notice-list-item.list-header p {
+	white-space: nowrap;
+	color: #828282;
+	font-weight: 400;
+	font-size: 0.889rem;
+}

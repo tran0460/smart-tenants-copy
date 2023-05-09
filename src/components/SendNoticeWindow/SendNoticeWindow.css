@@ -1,0 +1,212 @@
+.send-notice-window {
+	position: absolute !important;
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 40%;
+	z-index: 99999;
+	background: #ffffff;
+	border-radius: 16px 0px 0px 16px;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	box-sizing: border-box;
+}
+
+.send-notice-window-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.send-notice-window-content > div {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+}
+.send-notice-window-back-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 1.3rem;
+	gap: 1rem;
+}
+
+.send-notice-window-back-button p {
+	cursor: pointer;
+	margin: 0;
+}
+/* RECIPIENTS ROW */
+.notice-recipients-row {
+	display: flex !important;
+	flex-direction: row !important;
+	align-items: flex-start !important;
+	gap: 0.5rem;
+	margin-top: 2rem !important;
+	width: 100%;
+	padding: 1rem 0;
+	border-bottom: 2px solid #ededed;
+	min-height: 4.625rem;
+	box-sizing: border-box;
+}
+.notice-recipients-row > p {
+	margin-top: 0.5rem;
+	font-size: 1.125rem;
+}
+.notice-recipients-row .recipients-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: auto 0;
+	flex-grow: 1;
+}
+.notice-recipients-row .notice-recipients-input {
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+.notice-recipients-row .recipient-input-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: auto 0;
+}
+.notice-recipients-row .notice-recipients-input:focus {
+	outline: none;
+}
+.notice-recipients-row .extra-number {
+	flex-grow: 1;
+	font-weight: 500;
+	font-size: 14.22px;
+	color: #0c6350;
+	white-space: nowrap;
+}
+.notice-recipients-row .extra-number:hover {
+	text-decoration: underline;
+	text-decoration-color: #0c6350;
+	text-underline-offset: 0.15rem;
+	cursor: pointer;
+}
+/* SUBJECT ROW */
+.notice-subject-row {
+	border-bottom: 2px solid #ededed;
+}
+.notice-subject-row > p {
+	font-size: 1.125rem;
+}
+.notice-subject-row .notice-subject-input {
+	border: none;
+	flex-grow: 1;
+}
+.notice-subject-row .notice-subject-input:focus {
+	outline: none;
+}
+.send-notice-window-content .scroll-area {
+	overflow-y: auto;
+	overflow-x: hidden;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-between;
+	resize: none;
+	padding: 0;
+}
+.send-notice-window-content .scroll-area div {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+}
+/* CONTENT ROW */
+.notice-content-area textarea {
+	border: none;
+	resize: none;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.notice-content-area textarea:focus {
+	border-radius: 0.5rem;
+	outline: none;
+}
+
+.notice-attachments-row {
+	width: 100%;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 0 !important;
+}
+/* ACTIONS ROW */
+.notice-actions-row {
+	justify-content: space-between;
+	position: sticky;
+	background-color: #fff;
+}
+.file-upload-button {
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0;
+}
+.file-upload-button .paper-clip-icon {
+	width: 24px;
+	height: 24px;
+}
+.file-upload-button .paper-clip-icon svg {
+	margin: 0 !important;
+}
+.file-upload-button input {
+	display: none;
+}
+
+.file-upload-button .attach-file-text {
+	margin-left: 0.5rem;
+	color: #0c6350;
+}
+
+.notice-actions-row .actions {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.notice-actions-row .actions .cancel-button {
+	cursor: pointer;
+	color: red;
+}
+.notice-actions-row .actions .send-notice-button {
+	margin: 0;
+	margin-left: 1rem;
+	padding: 1rem;
+}
+
+.send-notice-window .list-dropdown {
+	position: absolute;
+	top: 100% !important;
+	width: fit-content !important;
+	min-width: 15rem !important;
+	left: 0;
+}
+.send-notice-window .list-dropdown li {
+	align-items: flex-start !important;
+}
+.send-notice-window .list-dropdown li:hover {
+	background: #eaf7f0;
+	border-radius: 4px;
+}
+.send-notice-window .list-dropdown .image-container {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.send-notice-window .list-dropdown .image-container img {
+	border-radius: 4px;
+	height: 100%;
+}
+.send-notice-window .loader {
+	align-self: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}

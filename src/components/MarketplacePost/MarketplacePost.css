@@ -1,0 +1,122 @@
+.marketplace-post {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	background: #ffffff;
+	box-shadow: 0px 0px 12px rgba(77, 77, 77, 0.1);
+	border-radius: 16px;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+.marketplace-post span {
+	cursor: pointer;
+}
+
+.marketplace-post .profile-image-container img {
+	height: 100%;
+	width: 100%;
+}
+.marketplace-post .profile-image-container {
+	display: flex;
+	align-items: center;
+	width: 3rem;
+	height: 3rem;
+}
+.marketplace-post-header {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.marketplace-post .info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	gap: 0.5rem;
+}
+.marketplace-post-item-name {
+	font-weight: 500;
+	font-size: 1.4rem;
+	margin: 0;
+}
+.marketplace-post .info .top-line,
+.marketplace-post .info .bottom-line {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.marketplace-post .info .top-line .icons {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+}
+.marketplace-post small {
+	color: #9d9d9d;
+	margin: 0;
+}
+.marketplace-post .info .bottom-line .building-address {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #0c6350;
+}
+
+.marketplace-item-price {
+	margin: 0;
+	font-size: 1.42rem;
+	font-weight: 500;
+	color: #0c6350;
+}
+.marketplace-post-content {
+	height: max-content;
+}
+.marketplace-post-content p {
+	margin: 0;
+	font-weight: 400;
+}
+.marketplace-post .building-address p {
+	color: #0c6350;
+}
+
+.marketplace-post-content img {
+	margin-top: 1rem;
+	width: 100% !important;
+	height: 100% !important;
+	display: block;
+	border-radius: 0.5rem;
+	object-fit: cover;
+}
+
+.marketplace-post-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.marketplace-post-footer .sender-name {
+	margin-right: auto;
+	font-size: 1.125rem;
+	color: #4d4d4d;
+	font-weight: 500;
+}
+
+.carousel {
+	height: 100%;
+	border-radius: 0.5rem;
+}
+
+.carousel-buttons {
+	background-color: transparent !important;
+	display: flex !important;
+	align-items: center !important;
+}
+.carousel-buttons.hidden {
+	display: none !important;
+}
+.carousel-buttons img {
+	width: 33px !important;
+	height: 36px !important;
+	margin: 0;
+}

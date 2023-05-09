@@ -1,0 +1,25 @@
+.newsfeed-post-image-container {
+	position: relative;
+	overflow: hidden;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
+}
+
+.click-to-reveal {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	pointer-events: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	gap: 1rem;
+}
+.click-to-reveal p {
+	font-size: 1.125rem;
+	font-weight: 500;
+	color: #fff;
+}

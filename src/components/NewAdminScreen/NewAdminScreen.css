@@ -1,0 +1,37 @@
+.admin-profile-container {
+	padding-top: 0;
+	background: none;
+}
+.new-admin-file-section {
+	width: 10rem !important ;
+	min-height: 10rem;
+	background: #eaf7f0;
+	border: 2.4px dashed #0c6350;
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+.new-admin-file-section p {
+	font-size: 0.75rem !important;
+}
+.new-admin-file-section.file-hovering {
+	background: #c9eada !important;
+}
+.new-admin-file-section:hover {
+	background: #c9eada;
+}
+
+.admin-profile-container .profile-image-container span {
+	width: 1rem;
+	height: 1rem;
+	cursor: pointer;
+}
+.admin-profile-container .profile-image-container {
+	position: relative;
+}

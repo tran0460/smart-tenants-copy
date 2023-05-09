@@ -1,0 +1,122 @@
+.newsfeed-post {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	background: #ffffff;
+	box-shadow: 0px 0px 12px rgba(77, 77, 77, 0.1);
+	border-radius: 16px;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+.newsfeed-post span {
+	cursor: pointer;
+}
+
+.newsfeed-post .profile-image-container img {
+	height: 4rem;
+	width: 4rem;
+}
+.newsfeed-post .profile-image-container {
+	display: flex;
+	align-items: center;
+	width: 4rem;
+	height: 4rem;
+}
+.newsfeed-post .profile-image-container span {
+	cursor: default;
+}
+.newsfeed-post-header {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.newsfeed-post .info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	gap: 0.5rem;
+}
+.newsfeed-post .info .sender-name {
+	font-weight: 500;
+	font-size: 1.266rem;
+	margin: 0;
+}
+.newsfeed-post .info .top-line,
+.newsfeed-post .info .bottom-line {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.newsfeed-post .info .top-line .icons {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+}
+.newsfeed-post .info .bottom-line small {
+	color: #9d9d9d;
+	margin: 0;
+	white-space: nowrap;
+}
+.newsfeed-post .info .bottom-line .building-address p {
+	font-size: 0.79rem;
+	color: #0c6350;
+}
+.newsfeed-post .info .bottom-line .building-address span {
+	cursor: default;
+}
+.newsfeed-post .info .bottom-line .building-address {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: text;
+}
+
+.newsfeed-post .newsfeed-title {
+	margin-left: 0;
+	margin-bottom: 0.5rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.newsfeed-post-content p {
+	margin: 0;
+	line-height: 140%;
+}
+.newsfeed-post-content p * {
+	cursor: text;
+}
+
+.newsfeed-post-content img {
+	width: 100%;
+	border-radius: 0.5rem;
+}
+
+.newsfeed-post-comments-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 0.5rem;
+	max-height: min-content;
+	overflow: auto;
+}
+.load-more {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12.64px;
+	line-height: 130%;
+	color: #4d4d4d;
+	cursor: pointer;
+}
+
+.loader-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,221 @@
+.view-notice-window {
+	position: absolute !important;
+	height: 100%;
+	right: 0;
+	top: 0;
+	width: 40%;
+	z-index: 99999;
+	background: #ffffff;
+	border-radius: 16px 0px 0px 16px;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	box-sizing: border-box;
+}
+.view-notice-window input {
+	pointer-events: none;
+}
+.view-notice-window-content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.view-notice-window-content > div {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.view-notice-window-back-button {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 1.3rem;
+	gap: 1rem;
+}
+
+.view-notice-window-back-button p {
+	cursor: pointer;
+	margin: 0;
+}
+
+/* INFO ROW */
+.notice-info-row {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	margin-top: 1.5rem;
+}
+
+.notice-date {
+	font-weight: 400;
+	font-size: 18px;
+	color: #9d9d9d;
+	flex-grow: 1;
+}
+/* RECIPIENTS ROW */
+.notice-recipients-row {
+	margin-top: 2rem;
+	width: 100%;
+	padding: 1rem 0;
+	border-bottom: 2px solid #ededed;
+}
+.view-notice-window .notice-recipients-row {
+	margin-top: 0 !important;
+	flex-wrap: nowrap;
+}
+.view-notice-window .notice-recipients-row .notice-recipients-input {
+	display: none;
+}
+.notice-recipients-row .notice-recipients-input {
+	border: none !important;
+	width: 100%;
+}
+.notice-recipients-row .notice-recipients-input:focus {
+	outline: none !important;
+}
+/* SUBJECT ROW */
+.notice-subject-row {
+	border-bottom: 2px solid #ededed;
+}
+
+.notice-subject-row .notice-subject-input {
+	border: none !important;
+	width: auto;
+	font-size: 1.1rem;
+}
+.notice-subject-row .notice-subject-input:focus {
+	outline: none;
+}
+.view-notice-window-content .scroll-area {
+	overflow: auto;
+	flex-direction: column;
+	flex-grow: 1;
+	resize: none;
+	padding: 0;
+}
+.view-notice-window-content .scroll-area div {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+}
+/* CONTENT ROW */
+.notice-content-area {
+	align-items: flex-start !important;
+	border: none;
+	resize: none;
+	margin-left: 0.5rem;
+	box-sizing: border-box;
+	white-space: pre-wrap;
+	overflow: auto;
+	height: auto;
+	font-weight: 400;
+	color: #4d4d4d;
+	width: 100%;
+	min-height: 40%;
+	flex-grow: 1;
+}
+
+.notice-content-area:focus {
+	border-radius: 0.5rem;
+	outline: none;
+}
+
+.notice-attachments-row {
+	align-self: flex-end !important;
+	width: 100%;
+	align-items: flex-start !important;
+	flex-wrap: wrap;
+	padding: 0 !important;
+	padding-top: 0.5rem !important;
+}
+/* ACTIONS ROW */
+.notice-actions-row {
+	justify-content: space-between;
+	position: sticky;
+	background-color: #fff;
+}
+.file-upload-button {
+	border: none;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0;
+}
+.file-upload-button .paper-clip-icon {
+	width: 24px;
+	height: 24px;
+}
+.file-upload-button .paper-clip-icon svg {
+	margin: 0 !important;
+}
+.file-upload-button input {
+	display: none;
+}
+
+.file-upload-button .attach-file-text {
+	margin-left: 0.5rem;
+	color: #0c6350;
+}
+
+.notice-actions-row .actions {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.notice-actions-row .actions .cancel-button {
+	cursor: pointer;
+	color: red;
+}
+.notice-actions-row .actions .view-notice-button {
+	margin: 0;
+	margin-left: 1rem;
+	height: 3rem;
+	padding: 1rem;
+}
+
+.view-notice-window input:disabled,
+.view-notice-window textarea:disabled {
+	background-color: #fff;
+}
+
+.view-status-dropdown {
+	width: fit-content !important;
+	top: 8rem !important;
+	right: -0.5rem !important;
+}
+.view-status-dropdown .list-item {
+	display: flex;
+	flex-direction: row;
+	border: none;
+	overflow: none;
+	gap: 0.5rem;
+	padding: 8px 4px;
+	margin: 0;
+	width: 100%;
+}
+.view-status-dropdown .list-item .tenant-name {
+	font-weight: 400;
+	font-size: 12.64px;
+	color: #4d4d4d;
+	white-space: nowrap;
+}
+.view-status-dropdown .list-item .timestamp {
+	font-weight: 400;
+	font-size: 10px;
+	text-align: right;
+	color: #9d9d9d;
+	max-width: 6rem !important;
+	margin-left: auto;
+}
+
+.view-status-dropdown .list-item .tenant-avatar {
+	border-radius: 4px;
+	width: 1.5rem;
+	height: 1.5rem;
+}

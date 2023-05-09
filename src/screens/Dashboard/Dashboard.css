@@ -1,0 +1,6 @@
+.pages-container {
+    width: 70vw;
+    min-width: calc(100vw - 20rem);
+    margin-left: auto; 
+    overflow: hidden;
+}
